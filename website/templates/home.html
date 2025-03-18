@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+
+{% block body %}
+
+<div class="container text-center">
+    <div class="row" style="margin: 15px;">
+      <div class="col " style="margin: 3px;">
+        <div class="list-group" id="right1" style="border-radius: 10px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+            <a href="" class="list-group-item list-group-item-action premium-link">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                <span class="link-name">Book an Eye Test</span>
+            </a>
+            <a href="" class="list-group-item list-group-item-action premium-link">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span class="link-name">Locate Our Store</span>
+            </a>
+            <a href="" class="list-group-item list-group-item-action premium-link">
+                <i class="fa-solid fa-comment"></i>                
+                <span class="link-name">Know More About Lenses</span>
+            </a>
+            <a href="" class="list-group-item list-group-item-action premium-link">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <span class="link-name">Virtual Trials</span>
+            </a>
+            <a href="" class="list-group-item list-group-item-action premium-link">
+                <i class="fa fa-audio-description" aria-hidden="true"></i>
+                <span class="link-name">Know which Lens Is Best Fit for You</span>
+            </a>
+        </div>
+      </div>
+
+      <div class="col-md-7" style="margin: 3px;">
+        <img src="../static/images/center.gif" alt="" class="premium-image" style="width: 520px; height: 289px; border-radius: 10px; object-fit: cover;">
+    </div>
+    
+      <div class="col-md-2">
+        <div class="col-md-7" style="margin: 3px;">
+            <img src="../static/images/home_right _2image.jpeg" alt="" class="premium-image2" style=" height: 289px; border-radius: 10px; object-fit: cover;">
+            
+        
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin: 10px;">
+        <div class="col" style="margin: 3px;">
+            <div class="card">
+                <img src="../static/images/home_spec1.webp" class="card-img-top" alt="Sunglasses">
+                <div class="card-body">
+                    <h5 class="card-title">Classic Aviator</h5>
+                    <p class="card-text">Premium UV protection aviator sunglasses.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin: 3px;">
+            <div class="card">
+                <img src="../static/images/home_spec2.jpeg" class="card-img-top" alt="Sunglasses">
+                <div class="card-body">
+                    <h5 class="card-title">Retro Round</h5>
+                    <p class="card-text">Stylish round sunglasses for a vintage look.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin: 3px;">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1588461395885-01f927f9b2cf" class="card-img-top" alt="Sunglasses">
+                <div class="card-body">
+                    <h5 class="card-title">Sporty Wrap</h5>
+                    <p class="card-text">Best for outdoor and sports activities.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="margin: 3px;">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1567428485548-c499e4931c40" class="card-img-top" alt="Sunglasses">
+                <div class="card-body">
+                    <h5 class="card-title">Luxury Shades</h5>
+                    <p class="card-text">Stylish Sunglass with polarized lenses.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="see-more-container">
+    <button class="see-more-btn">See More</button>
+</div>
+    </div>
+
+<style>
+.premium-link {
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.premium-link:hover {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: #d4af37;
+}
+.premium-container {
+      margin: 10;
+      padding: 10;
+      width: 500px;
+      height: 289px;
+  }
+
+  .premium-image {
+      width: 400;
+      height: 289;
+      border-radius: 10px;
+      object-fit: cover;
+      display: block;
+  }
+
+.premium-image2 {
+    height: 289px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    margin-left: -86px;
+}
+
+
+.right2-premium-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding-right: 0;
+    margin-left: 200px;
+    
+}
+
+
+
+.premium-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.premium-item {
+    display: flex;
+    margin-top: 10px;
+}
+.premium-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+}
+.premium-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-left: -40px;
+    font-weight: 600;
+    color: #d4af37;
+}
+.premium-text {
+    font-size: small;
+    color: gray;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+
+
+.card-text {
+    margin-top: 15px; /* Adjust as needed */
+}
+.card-img-top{
+    height: 200px;
+}
+.see-more-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .see-more-btn {
+      background-color: #121212;
+      margin: 0px;
+      border-radius: 8px;
+      color: #FFD700 !important;
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+
+    .see-more-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+</style>
+
+
+
+{% endblock %}
